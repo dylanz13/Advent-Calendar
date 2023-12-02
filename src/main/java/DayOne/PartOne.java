@@ -8,8 +8,8 @@ import java.util.List;
 // Day 1 Part 1
 public class PartOne {
     public static void main(String[] args) throws IOException {
-        // Path of the input.txt file
-        String path = "C:\\Users\\dyzha\\projects\\Advent_Calendar\\src\\main\\resources\\input.txt";
+        // Path of the inputd1.txt file
+        String path = "C:\\Users\\dyzha\\projects\\Advent_Calendar\\src\\main\\resources\\inputd1.txt";
 
         // Reading each line
         List<String> lines = Files.readAllLines(Path.of(path));
@@ -41,6 +41,5 @@ public class PartOne {
 
         // Prints out final sum
         System.out.println(sum); //54390
-
     }
 }
