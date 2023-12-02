@@ -9,7 +9,7 @@ import java.util.List;
 public class PartOne {
     public static void main(String[] args) throws IOException {
         // Path of the inputd1.txt file
-        String path = "C:\\Users\\dyzha\\projects\\Advent_Calendar\\src\\main\\resources\\inputd1.txt";
+        String path = "./src/main/resources/inputd1.txt";
 
         // Reading each line
         List<String> lines = Files.readAllLines(Path.of(path));

@@ -12,7 +12,7 @@ import java.util.List;
 public class PartTwo {
     public static void main(String[] args) throws IOException {
         // Path of the inputd1.txt file
-        String path = "C:\\Users\\dyzha\\projects\\Advent_Calendar\\src\\main\\resources\\inputd1.txt";
+        String path = "./src/main/resources/inputd1.txt";
         List<String> lines = Files.readAllLines(Path.of(path)); // Reading each line
         String[] arr = lines.toArray(new String[lines.size()]); // Storing it in a String array
 
